@@ -1,0 +1,18 @@
+﻿<Application x:Class="Calculator.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Calculator"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="NumberBtn" TargetType="{x:Type Button}">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Background" Value="LightYellow"/>
+        </Style>
+
+        <Style x:Key="OpBtn" TargetType="{x:Type Button}">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+
+    </Application.Resources>
+</Application>
